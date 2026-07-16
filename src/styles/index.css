@@ -1,0 +1,73 @@
+/* ------------------------------------------------ */
+/* Google Font                                      */
+/* ------------------------------------------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ------------------------------------------------ */
+/* Global Styles                                    */
+/* ------------------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* ------------------------------------------------ */
+/* Hero Section                                     */
+/* ------------------------------------------------ */
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+/* ------------------------------------------------ */
+/* Service Cards                                    */
+/* ------------------------------------------------ */
+
+.card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  min-height: 40px;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+/* ------------------------------------------------ */
+/* Icons                                            */
+/* ------------------------------------------------ */
+
+.card i {
+  transition: transform 0.3s ease;
+}
+
+.card:hover i {
+  transform: scale(1.15);
+}
+
+/* ------------------------------------------------ */
+/* Footer                                           */
+/* ------------------------------------------------ */
+
+footer {
+  margin-top: 4rem;
+}
